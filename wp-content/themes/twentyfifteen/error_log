@@ -1,0 +1,9 @@
+[20-Jul-2015 19:59:25 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/julieevo2014/public_html/wp-content/themes/twentyfifteen/404.php on line 10
+[05-Oct-2015 08:59:46 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/julieevo2014/public_html/wp-content/themes/twentyfifteen/404.php on line 10
+[02-Jul-2016 18:07:34 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/julieevo2014/public_html/wp-content/themes/twentyfifteen/404.php on line 10
+[25-Nov-2017 05:02:21 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/julieevo2014/public_html/wp-content/themes/twentyfifteen/404.php on line 10
+[25-Nov-2017 05:02:40 UTC] PHP Fatal error:  Call to undefined function _e() in /home/julieevo2014/public_html/wp-content/themes/twentyfifteen/author-bio.php on line 12
+[25-Nov-2017 05:04:26 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/julieevo2014/public_html/wp-content/themes/twentyfifteen/footer.php on line 23
+[25-Nov-2017 05:04:31 UTC] PHP Fatal error:  Call to undefined function _e() in /home/julieevo2014/public_html/wp-content/themes/twentyfifteen/author-bio.php on line 12
+[26-Nov-2017 11:53:24 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/julieevo2014/public_html/wp-content/themes/twentyfifteen/content-link.php on line 13
+[24-Jan-2018 12:28:50 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/julieevo2014/public_html/wp-content/themes/twentyfifteen/404.php on line 10
