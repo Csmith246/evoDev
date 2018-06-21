@@ -463,21 +463,29 @@ jQuery( document ).ready(
 		 * Calculate height for .page-header on front page
 		 */
 		function headerSpacingFrontpage() {
+			var pageHeader = $( '.page-header' ),
+			pageHeaderContainer = $( '.page-header .container' ),
+			windowWidth = $( window ).width(),
+			windowHeight = $( window ).height();
+
+			var sliderHeight = windowHeight * .85;
+			$('#my-slider').css('height', sliderHeight);
+			$('#my-slider').css('width', sliderHeight * (4.9/6));
+			console.log("Set Pic Slider Height and Width");
+
+
 			if ( $( '.home .header .carousel' ).length > 0 ) {
-				var pageHeader = $( '.page-header' ),
-					pageHeaderContainer = $( '.page-header .container' ),
-					windowWidth = $( window ).width(),
-					windowHeight = $( window ).height();
+
 
 				// Set page-header height
 				if ( windowWidth > 768 ) {
-					pageHeader.css( 'height', (windowHeight * 0.9) ); // 90% of window height
+					pageHeader.css( 'height', (windowHeight) ); // 100% of window height - CSMITH 6/19/2018
 				} else {
 					if ( windowHeight > pageHeaderContainer.outerHeight() ) {
 						pageHeader.css( 'height', windowHeight ); // window height is 100%
 						pageHeaderContainer.removeClass( 'container-height-auto' );
 					} else {
-						pageHeader.css( 'height', 'auto' ); // window height will be auto
+						pageHeader.css( 'height', windowHeight ); // window height will be auto
 						pageHeaderContainer.addClass( 'container-height-auto' );
 					}
 				}
@@ -690,3 +698,8 @@ jQuery( document ).ready(
 	} );
 
 }( jQuery ));
+
+
+
+
+

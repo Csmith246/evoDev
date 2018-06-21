@@ -67,7 +67,17 @@ if ( ! function_exists( 'hestia_slider' ) ) :
 									<div class="container">
 									<?php hestia_top_big_title_section_content_trigger(); ?>
 										<div class="row">
-											<div class="col-md-8 col-md-offset-2 <?php echo esc_attr( $class_to_add ); ?>">
+										
+
+
+
+										
+
+
+
+
+											<!-- <div class="col-md-6 <?php echo esc_attr( $class_to_add ); ?>"> -->
+											<div class="col-md-6">
 												<?php
 												if ( ! empty( $title ) ) :
 													$title = html_entity_decode( $title );

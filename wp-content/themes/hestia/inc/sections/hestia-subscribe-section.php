@@ -81,23 +81,23 @@ if ( ! function_exists( 'hestia_subscribe' ) ) :
 					</div>
 				</div>
 
-				<div style="display:flex; justify-content:center;">
+				<div class="text-center">
 					
-					<div class="card" style="width: 24rem;">
+					<div class="card padding-sm margin-sm" style="width: 24rem;">
 						<img class="card-img-top" src="http://localhost:81/evoDev/wp-content/uploads/2014/08/cropped-evothur.png" alt="Card image cap">
 						<div class="card-body">
 							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 						</div>
 					</div>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-					<div class="card" style="width: 24rem;">
+					
+					<div class="card padding-sm margin-sm" style="width: 24rem;">
 						<img class="card-img-top" src="http://localhost:81/evoDev/wp-content/uploads/2014/08/cropped-evothur.png" alt="Card image cap">
 						<div class="card-body">
 							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 						</div>
 					</div>
-					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-					<div class="card" style="width: 24rem;">
+					
+					<div class="card padding-sm margin-sm" style="width: 24rem;">
 						<img class="card-img-top" src="http://localhost:81/evoDev/wp-content/uploads/2014/08/cropped-evothur.png" alt="Card image cap">
 						<div class="card-body">
 							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
