@@ -3039,7 +3039,7 @@ body.admin-bar .navbar {
 .card {
   display: inline-block;
   position: relative;
-  width: 100%;
+  /* width: 100%; */
   margin-bottom: 30px;
   border-radius: 6px;
   color: rgba(0, 0, 0, 0.87);
@@ -8456,4 +8456,36 @@ p.ism-badge a.ism-link:hover {
   display: inline-block;
   vertical-align: middle;
   float: none;
+}
+
+.aboutSecBackground{
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px 0px;
+}
+
+.flexOuter{
+  display: flex;
+  justify-content: space-around;
+}
+
+.flexCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCol{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blackText{
+  color: black;
+}
+
+.boxShadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

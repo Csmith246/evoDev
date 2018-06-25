@@ -81,7 +81,7 @@ if ( ! function_exists( 'hestia_subscribe' ) ) :
 					</div>
 				</div>
 
-				<div class="text-center">
+				<div class="text-center" data-aos="fade-up">
 					
 					<div class="card padding-sm margin-sm" style="width: 24rem;">
 						<img class="card-img-top" src="http://localhost:81/evoDev/wp-content/uploads/2014/08/cropped-evothur.png" alt="Card image cap">

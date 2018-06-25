@@ -24,6 +24,11 @@
  * @since Hestia 1.0
  */
 
+
+require_once(__DIR__ . "\inc\sections\Evo_Review.php");
+
+
+
 if ( ! defined( 'ELEMENTOR_PARTNER_ID' ) ) {
 	define( 'ELEMENTOR_PARTNER_ID', 2112 );
 }
